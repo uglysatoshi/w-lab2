@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+}.container {
+    margin: 0 auto;
+    width: 900px;
+}.HighBar,.LowBar{
+    width: 100%;
+    float: left;
+    height: 90px;
+}.HighBar {
+    background: #D9D9D9;
+    border-radius: 40px
+}.LowBar{
+    border-radius: 40px;
+    background: #D9D9D9;
+}.bLeft{
+    float: left;
+    width: 50%;
+    height: 800px;
+    background-color: aqua;
+    border-radius: 40px;
+}
+.bRight{
+    float: right;
+    width: 50%;
+    height: 800px;
+    background-color: chartreuse;
+    border-radius: 40px;
+}.PageBackground {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 0;
+    background: #94C892;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+}
